@@ -93,7 +93,7 @@ Language::Hq9plus - HQ9+ Implementation
 
     use Language::Hq9plus;
     my $program = "HHHHQQQQ9+++";
-    my $hq9plus = new Language::Hq9plus($program);
+    my $hq9plus = Language::Hq9plus->new($program);
     $hq9plus->run();
     print $hq9plus->{accum};
 
