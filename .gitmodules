@@ -1,0 +1,3 @@
+[submodule "hq9plus"]
+	path = hq9plus
+	url = https://github.com/Tpaefawzen/perl-language-hq9plus
